@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SAPbobsCOM;
 
 namespace FormJECOR
 {
@@ -15,6 +16,7 @@ namespace FormJECOR
         public Asignar()
         {
             InitializeComponent();
+            //oSapCompany.CreateCompany();
         }
 
         private void label2_Click(object sender, EventArgs e)

@@ -12,9 +12,12 @@ namespace FormJECOR
 {
     public partial class Inicio : Form
     {
+        SapCompany oSapCompany = new SapCompany();
         public Inicio()
         {
             InitializeComponent();
+            oSapCompany.CreateCompany();
+
         }
 
         //     private void Form1_Load(object sender, EventArgs e)
